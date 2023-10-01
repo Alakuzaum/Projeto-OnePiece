@@ -34,6 +34,12 @@
     .botoes .botao img {
         max-width: 60px;
     }
+
+    ul.scroll {
+        max-height: 125px;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
 }
 
 @media (max-width: 425px) {
@@ -61,5 +67,11 @@
 
     .botoes .botao img {
         max-width: 50px;
+    }
+
+    ul.scroll {
+        max-height: 125px;
+        overflow-y: hidden;
+        overflow-x: auto;
     }
 }
