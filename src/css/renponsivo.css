@@ -29,6 +29,7 @@
         align-items: flex-end;
         width: 100%;
         padding: 30px;
+        overflow-x: auto;
     }
 
     .botoes .botao img {
@@ -36,7 +37,7 @@
     }
 
     ul.scroll {
-        max-height: 125px;
+        max-width: -125px;
         overflow-y: hidden;
         overflow-x: auto;
     }
@@ -67,11 +68,5 @@
 
     .botoes .botao img {
         max-width: 50px;
-    }
-
-    ul.scroll {
-        max-height: 125px;
-        overflow-y: hidden;
-        overflow-x: auto;
     }
 }
